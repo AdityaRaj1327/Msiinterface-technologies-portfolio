@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(1, 1, 36);
+    color: white;
+    font-family: poppins,sans-serif;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(2, 2, 65);
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+
+  }
+  nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover{
+   font-size: 1.1rem;
+    color: rgb(12, 245, 4);
+  }
+  .left{
+    font-size: 1.5rem;
+  }
+  .firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 0;
+    align-items: center;
+  }
+  .firstSection > div{
+    width: 30%;
+    
+    
+
+  }
+  .leftSection{
+    
+    width: 34px;
+    font-size: 3rem;
+    
+    
+  }
+  main hr{
+    border: 0;
+    margin: 40px 80px;
+    height: 1.5px;
+    background-color: rgb(81, 81, 243);
+
+  }
+  .rightsection img{
+    width: 80%;
+    
+  }
+  .purple{
+    color: rgb(171, 171, 241);
+  }
+  #element{
+    color: rgb(171, 171, 241);
+  }
+  .secondsection{
+    max-width: 80vw;
+    margin: 30px;
+    height: 80vh;
+  }
+  .text-gray{
+    color: grey;
+  }
+  .secondsection h1{
+    font-size: 1.9rem;
+  }
+  .secondsection .box{
+    background-color: white;
+    width: 90vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+  }
+  .secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+
+  }
+  .image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+  }
+  .vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+  }
+  .vertical-desc{
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+  }
+  footer{
+    background-color: rgb(65, 65, 66);
+    
+  }
+  .footer{
+    display: flex;
+    padding:23px 122px ;
+    justify-content: space-evenly;
+  }
+  .footer ul{
+    list-style: none;
+  }
+  footer .footer-rights{
+    text-align: center;
+    padding: 12px 0;
+    color: grey;
+  }
+  .leftSection .btn{
+    padding: 12px;
+    background-color: rgb(21 21 102);
+    color: white;
+    border: 2px solid;
+    border-radius: 6px solid;
+    font-size: 20px;
+    cursor:pointer
+  }
+  .leftsection .buttons{
+    padding: 69px;
+  }
